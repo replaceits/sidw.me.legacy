@@ -77,4 +77,8 @@ ul.nostyle {
     flex: auto;
     height: calc(100vh - 58px);
   }
+
+  .slide {
+    min-height: calc(100vh - 106px);
+  }
 }

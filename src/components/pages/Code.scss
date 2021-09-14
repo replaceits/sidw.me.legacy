@@ -31,3 +31,15 @@
   padding-right: 2.5%;
 }
 
+@media (max-width: 800px) {
+  .page-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .slide {
+      min-height: auto;
+    }
+  }
+}
