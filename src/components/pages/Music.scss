@@ -3,4 +3,8 @@
 
 .page-music {
   background: $color-yellow;
+
+  .slide {
+    height: calc(100% - 50px);
+  }
 }

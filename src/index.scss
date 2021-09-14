@@ -67,3 +67,14 @@ ul.nostyle {
 .darken-bg {
   background: rgba(0, 0, 0, 0.03);
 }
+
+@media (max-width: 800px) {
+  html, body {
+    font-size: 24px;
+  }
+
+  .page {
+    flex: auto;
+    height: calc(100vh - 58px);
+  }
+}

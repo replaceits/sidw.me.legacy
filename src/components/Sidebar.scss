@@ -35,11 +35,13 @@
     cursor: pointer;
   }
 
-  &:hover {
-    width: 200px;
+  @media (min-width: 801px) {
+    &:hover {
+      width: 200px;
 
-    & + .page-about .look-at-wrapper {
-      left: 225px;
+      & + .page-about .look-at-wrapper {
+        left: 225px;
+      }
     }
   }
 }
@@ -62,4 +64,21 @@
 
 .sidebar-poetry {
   background: $color-red;
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+
+    a.nostyle {
+      width: auto;
+      padding-left: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      text-align: center;
+    }
+  }
 }

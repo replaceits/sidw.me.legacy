@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 
 import About from './components/pages/About';
 
@@ -20,6 +20,7 @@ function App() {
           <Route exact path='/music' component={Music} />
           <Route exact path='/art' component={Art} />
           <Route exact path='/poetry' component={Poetry} />
+          <Redirect to='/' />
         </Switch>
       </div>
     </BrowserRouter>

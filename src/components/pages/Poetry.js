@@ -18,13 +18,6 @@ function Poetry() {
           You’ve already risen
         </div>
       </div>
-
-      <div className='slide darken-bg'>
-        <h3></h3>
-        <div className='poetry-content'>
-          
-        </div>
-      </div>
     </div>
   );
 }

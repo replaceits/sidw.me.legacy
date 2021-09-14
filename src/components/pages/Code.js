@@ -60,6 +60,35 @@ function Code() {
           </a>
         </div>
       </div>
+
+      <div className='slide'>
+        <div className='work'>
+          <a className='work-image-wrapper nostyle' href='https://jolly-payne-24a333.netlify.app/'>
+            <img 
+              className='work-image'
+              alt='Termisafe'
+              src='https://s3.us-east-1.amazonaws.com/sidw.me/Screen%20Shot%202021-09-14%20at%207.23.36%20AM.png' 
+            />
+          </a>
+          <div className='work-description'>
+            <a
+              href='https://jolly-payne-24a333.netlify.app/'
+              className='nostyle'
+            >
+              <h3 className='work-title'>Termisafe</h3>
+            </a>
+            <p>
+              A terminal hacking game. Try to break the password within 4 guesses!
+              <br />
+              <br />
+              Built using <SiReact /> React and <SiSass /> Sass.
+              <br />
+              <br />
+              Hosted on <SiNetlify /> Netlify
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

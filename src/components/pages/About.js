@@ -9,7 +9,7 @@ import {GoLocation} from 'react-icons/go';
 import './About.scss';
 
 function About() {
-  const [lookToggle, setLookToggle] = React.useState(false); //window.localStorage.getItem('look-at-sidebar-seen') === 'true');
+  const [lookToggle, setLookToggle] = React.useState(false);//window.localStorage.getItem('look-at-sidebar-seen') === 'true');
 
   const close = () => {
     setLookToggle(true);
