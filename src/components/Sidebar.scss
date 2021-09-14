@@ -1,0 +1,65 @@
+
+@import '../variables/colors.scss';
+
+.sidebar {
+  flex: 0 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+  width: 80px;
+
+  overflow: hidden;
+
+  transition: width 0.25s;
+
+  box-shadow: inset -4px 0px 4px -4px rgba(0, 0, 0, 0.25);
+
+  a.nostyle {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 200px;
+
+    padding-left: 80px;
+
+    font-size: 32px;
+    font-family: 'Righteous', cursive;
+
+    color: #fff;
+
+    cursor: pointer;
+  }
+
+  &:hover {
+    width: 200px;
+
+    & + .page-about .look-at-wrapper {
+      left: 225px;
+    }
+  }
+}
+
+.sidebar-about {
+  background: $color-blue;
+}
+
+.sidebar-code {
+  background: $color-green;
+}
+
+.sidebar-music {
+  background: $color-yellow;
+}
+
+.sidebar-art {
+  background: $color-orange;
+}
+
+.sidebar-poetry {
+  background: $color-red;
+}

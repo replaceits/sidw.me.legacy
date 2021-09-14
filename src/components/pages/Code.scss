@@ -1,0 +1,33 @@
+
+@import '../../variables/colors.scss';
+
+.page-code {
+  background: $color-green;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-image-wrapper {
+  flex: 0 0 40%;
+  width: 40%;
+  height: auto;
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.25);
+}
+
+.work-description {
+  flex: 0 0 55%;
+
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
