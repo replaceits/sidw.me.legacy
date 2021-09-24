@@ -3,8 +3,9 @@ import React from 'react';
 import {AiFillCloseCircle} from 'react-icons/ai';
 import {BsCaretDownFill, BsArrowReturnLeft} from 'react-icons/bs';
 import {DiJqueryLogo, DiLess, DiHtml5, DiCss3, DiJavascript1} from 'react-icons/di';
-import {FaJira, FaTrello, FaSlack, FaGithub, FaFigma} from 'react-icons/fa';
+import {FaJira, FaTrello, FaSlack, FaGithub, FaFigma, FaLinkedin} from 'react-icons/fa';
 import {GoLocation} from 'react-icons/go';
+import {MdEmail} from 'react-icons/md';
 
 import './About.scss';
 
@@ -81,6 +82,32 @@ function About() {
             <FaFigma className='icon' />
             Figma
           </li>
+        </ul>
+      </div>
+
+
+      <div className='slide darken-bg'>
+        <h2>Contact me</h2>
+
+        <ul className='experience-icons nostyle'>
+          <a className='nostyle' href='mailto:sid@sidw.me'>
+            <li>
+              <MdEmail className='icon' />
+              sid@sidw.me
+            </li>
+          </a>
+          <a className='nostyle' href='https://www.linkedin.com/in/sidney-williams-b51512a4/'>
+            <li>
+              <FaLinkedin className='icon' />
+              LinkedIn
+            </li>
+          </a>
+          <a className='nostyle' href='https://github.com/replaceits'>
+            <li>
+              <FaGithub className='icon' />
+              Github
+            </li>
+          </a>
         </ul>
       </div>
 
